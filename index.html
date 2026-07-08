@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>星夜复明：情绪的收集与再生</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="scene"></canvas>
+
+  <div class="title-block" id="titleBlock">
+    <h1 id="workTitle">星夜复明</h1>
+    <p id="workSubtitle">情绪的收集与再生</p>
+  </div>
+  <div class="ui ui-score" id="score">已收集情绪：0/5</div>
+  <div class="ui ui-hint" id="hint">当前靠近：无</div>
+  <div class="center-message" id="message" aria-live="polite"></div>
+  <div class="final-message" id="finalMessage" aria-live="polite">
+    当你触碰这些情绪，夜晚不再只是被观看，而是在你的手势与凝视中重新生成。
+  </div>
+
+  <script src="main.js"></script>
+  <script src="particleEditor.js"></script>
+  <script src="panel.js"></script>
+</body>
+</html>
